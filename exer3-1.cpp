@@ -3,17 +3,17 @@ using namespace std;
 int main(void)
 {
 	int x;
-	cout<<"请输入一个整数x:"<<endl;
+	cout<<"璇疯緭鍏ヤ竴涓暣鏁皒:"<<endl;
 	cin>>x;
-	if(x<5)
-	cout<<x<<":小于5.\n";
+	if(x<10)
+	cout<<x<<":灏忎簬10.\n";
 	else
-	if(5<=x<10)
-	cout<<x<<":大于等于5小于10.\n";
+	if(10<=x<100)
+	cout<<x<<":澶т簬绛変簬10灏忎簬100.\n";
 	else
-	if(10<=x<99)
-	cout<<x<<":大于等于10小于99.\n";
+	if(100<=x<999)
+	cout<<x<<":澶т簬绛変簬100灏忎簬999.\n";
 	else
-	if(100<=x)
-	cout<<x<<":大于等于100.\n" ;
+	if(1000<=x)
+	cout<<x<<":澶т簬绛変簬1000.\n" ;
 }
